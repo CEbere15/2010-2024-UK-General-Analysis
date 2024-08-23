@@ -6,7 +6,7 @@
   - [Summary](#summary)
   - [Data Source](#data-source)
   - [Tools](#tools)
-  - [Data Dictionary](#dataset-description)
+  - [Data Dictionary](#data-dictionary)
   - [Objectives](#objectives)
   - [References](#references)
 - [Data Cleaning and Preperation](#data-cleaning-and-preperation)
