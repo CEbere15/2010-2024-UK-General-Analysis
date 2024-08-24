@@ -10,8 +10,8 @@
   - [Objectives](#objectives)
   - [References](#references)
 - [Data Cleaning and Preperation](#data-cleaning-and-preperation)
-- [Exploratory Data Analysis](#exploratory-data-analysis-eda)
-- [Data Analysis (DA)](#data-analysis-da)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis (DA)](#data-analysis)
 - [Results](#results)
   - [Conclusions](#conclusions)
   - [Limitations](#limitations)
@@ -22,7 +22,9 @@
 ### Summary
 This data project was made with the goal of analyzing and finding insights for the 2024 United Kingdom General Election. It focuses mainly on how each party's nominee did in every constituency 
 ### Data Source
+2024 UK General Election Results: The primary dataset used for the analysis is in the 'HoC-GE2024-results-by-candidate.csv' file, which has shows the performances of , whether they are the incumbent, the race that they participated in, their vote share, along with information on which party they are affiliated with, what party the seat their contesting belongs to, and more.
 
+Incumbent Data: A secondary dataset that for the analysis is in 'incumbent_data.csv' file, which shows who the most recent seat holder is for each race, when their term started, their decision in the upcoming election, and the partisan ratings for their contest.
 
 
 ### Tools
@@ -59,16 +61,62 @@ This data project was made with the goal of analyzing and finding insights for t
 | `HeldBy`      | Text     | The party that held that seat last, before the election occured.  |
 
 ## Data Cleaning and Preperation
-### Sorting Candidates and Ranking Their Performance
+### Process
+1. For the
+2. h
+3. j
+4. 
 
-To make this 
+
+## Exploratory Data Analysis (EDA)
+
+### Descriptive Statistics
+
+
+
+#### SQL
+
+1. What are the Top 15 most common surnames for candidates in the 2024 UK General Elections?
 
 ```sql
-ALTER TABLE table_name RENAME TO new_table_name; 
+Select Candidatesurname, count(*) as Candidates from 'HoC-GE2024-results-by-candidate'
+group by Candidatesurname order by Count(*) desc
+limit 15;
 ```
 
-## Exploratory Data Analysis
 
+
+
+
+
+
+##### Visualization: 
+![image](https://github.com/user-attachments/assets/6d9141dd-6da0-4239-b7f2-818f80abe023)
+
+
+The surname "Smith" seems to be the most common surname for candidates that 
+
+2. How many different 
+
+#### Python
+
+## Data Manipulation
+### Sorting Candidates and Ranking Their Performance
+
+To make this data easier to analyze, these SQL queries 
+
+```sql
+-- Changing the name of the table to a simpler name
+ALTER TABLE 'HoC-GE2024-results-by-candidate' RENAME TO 'Commons24';
+
+-- Creating the 
+Create Table Candidates as Select Candidatefirstname || ' ' || Candidatesurname as Candidate, Partyname as Party, Candidategender as Gender, Constituencyname as Constituency, Regionname as Region, Countryname as Country,
+Case when SittingMP = 'Yes' then TRUE
+when SittingMP = 'No' then FALSE else null end as Incumbent, 
+Case when FormerMP = 'Yes' then TRUE
+when FormerMP = 'No' then FALSE else null end as 'Former MP', Votes, Share, dense_rank() over(partition by Constituencyname order by Votes desc) as Standing from [Commons24] order by Countryname;
+
+```
 
 
 ## Data Analysis
