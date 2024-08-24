@@ -1,4 +1,4 @@
-# UK General Election Analysis 2024
+# 2024 United Kingdom General Election Analysis
 
 
 ### Table of Contents
@@ -20,7 +20,7 @@
 ## Overview
 
 ### Summary
-
+This data project was made with the goal of analyzing and finding insights for the 2024 United Kingdom General Election. It focuses mainly on how each party's nominee did in every constituency 
 ### Data Source
 
 
@@ -28,7 +28,9 @@
 ### Tools
 
 
-### Data Dictionary
+### Data Dictionaries
+
+#### 2024 UK Election Relevant Columns
 
 | Column       | Data Type       | Description                                                                      |
 |-------------------|-------------|-----------------------------------------------------------------------------|
@@ -49,10 +51,21 @@
 | `Share`      | Float     | Share of the  total votes that the candidate won.   |
 | `Change`      | Text     | A measure on how well the Party did in comparison to the prior general election   |
 
+#### 2024 UK Election Holdings
 
+| Column       | Data Type       | Description                                                                      |
+|-------------------|-------------|-----------------------------------------------------------------------------|
+| `Constituency`      | Text     | The constituency that is up for election; used as an index.              |
+| `HeldBy`      | Text     | The party that held that seat last, before the election occured.  |
 
 ## Data Cleaning and Preperation
+### Sorting Candidates and Ranking Their Performance
 
+To make this 
+
+```sql
+ALTER TABLE table_name RENAME TO new_table_name; 
+```
 
 ## Exploratory Data Analysis
 
