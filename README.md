@@ -96,7 +96,42 @@ limit 15;
 
 The surname "Smith" seems to be the most common surname for candidates that 
 
-2. How many different 
+2. How many sitting Members of Parliament stood in each Country and Region?
+```sql
+-- Find the amount of Sitting MPs standing for reelection by the country and region their constituency belongs to. 
+Select Countryname, Regionname, Count(*) from 'HoC-GE2024-results-by-candidate'
+where SittingMP = 'Yes'
+group by Countryname, Regionname;
+
+```
+
+##### Visualization:
+![image](https://github.com/user-attachments/assets/04efdb61-fd27-4775-994a-0e4e2f12694f)
+
+Most of the sitting MPs who stood for reelection were from England, with Scotland being at second place, Wales at third, while Northern Ireland had the least sitting MPs standing for reelection.
+
+3. How many votes did each country and region have cast in the 2024 UK General Elections
+```sql
+-- Total votes casted by each country and region for the General Election
+Select Countryname, Regionname, Total(votes) as Votes from 'HoC-GE2024-results-by-candidate'
+group by Countryname, Regionname;
+
+```
+
+##### Visualization:
+
+![image](https://github.com/user-attachments/assets/c01b50f3-d625-4731-8df0-82e34edb94c7)
+
+4. How many different registered parties had candidates in the General Election by Country and Region
+```sql
+Select Countryname, Regionname, Count(distinct Partyname) as Parties from 'HoC-GE2024-results-by-candidate'
+group by Countryname, Regionname
+```
+
+![image](https://github.com/user-attachments/assets/d0c0f995-4179-4ff8-a481-188578fd844c)
+
+6. 
+7. 
 
 #### Python
 
