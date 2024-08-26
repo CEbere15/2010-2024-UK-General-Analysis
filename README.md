@@ -32,7 +32,7 @@ Incumbent Data: A secondary dataset that for the analysis is in 'incumbent_data.
 
 ### Data Dictionaries
 
-#### 2024 UK Election Relevant Columns
+#### 2024 / 2019 UK Election Relevant Columns
 
 | Column       | Data Type       | Description                                                                      |
 |-------------------|-------------|-----------------------------------------------------------------------------|
@@ -127,12 +127,55 @@ group by Countryname, Regionname;
 Select Countryname, Regionname, Count(distinct Partyname) as Parties from 'HoC-GE2024-results-by-candidate'
 group by Countryname, Regionname
 ```
+##### Visualization:
+![image](https://github.com/user-attachments/assets/5cfec85e-b781-4b17-a77c-495b821250bd)
 
-![image](https://github.com/user-attachments/assets/d0c0f995-4179-4ff8-a481-188578fd844c)
+5. How common is each type of constituency in each country
 
-6. 
-7. 
+```sql
+-- Find how common each type of constituency is by the country the constituency belongs to
+with Ren as (
+Select distinct Countryname as Country, Constituencyname, Constituencytype as Type
+from 'HoC-GE2024-results-by-candidate')  
+Select Country, Type, Count(*) as Constituencies from Ren group by Country, Type;
+```
 
+
+
+
+6. How many different people ran for a seat in parliament
+```sql
+-- Using different variables to find how many different candidates there were
+Select count(distinct Candidatefirstname || candidatesurname || Regionname || Partyname || Constituencytype) + 2
+as 'Distinct Candidates'
+from 'HoC-GE2024-results-by-candidate' 
+where Candidatesurname != 'Omilana';
+```
+##### Result:
+![image](https://github.com/user-attachments/assets/662cb395-3f11-41e1-a725-0301ffb2a002)
+
+
+
+This was a bit of a challenge to find the exact distinct count of candidates. Niko Omilana for example, was a candidate for 11 different constituencies, therefore he needed to be removed and added back by adding one to the final count. And there were two different Paul Kennedy's in Scotland, who were members of the Liberal Democrat party, which meant another person needed to be added to the count.
+
+
+
+7. How many seats does each Party hold prior to the election?
+```sql
+-- How many seats did each party hold before the election
+Select HeldBy, Count(*) from BeforeSeats
+group by HeldBy
+order by Count(*) desc;
+```
+
+
+##### Visualization: 
+
+![image](https://github.com/user-attachments/assets/b5033918-d7b0-4066-bf30-76930011c761)
+
+
+
+The Conservative Party has a clear majority of seats in Parliament before the 2024 General. With 372 seats, or 57.23% of the chamber in their control, they have a seemingly comfortable government to work with. Labour on the other hand, has the second highest amount of seats in the House of Commons; they hold 200 of them, or 30.77% of seats. Which is a fair amount lower than what the Conservatives hold. The next biggest three include the Scottish National Party with 46 seats (7.09%), Liberal Democrats with 10 seats (1.54%), and the Democratic Unionist Party with 8 seats (1.23%).
 #### Python
 
 ## Data Manipulation
