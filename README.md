@@ -29,6 +29,15 @@ Incumbent Data: A secondary dataset that for the analysis is in 'incumbent_data.
 
 ### Tools
 
+  -  Excel - Data Cleaning / Preperation
+      -  Used to compile datasets from multiple sources and organize them into worksheets, for more thorough analysis.
+  -  DB Browser (SQLite) - Data Analysis and Manipulation
+      -  Used for querying and manipulating the data to gain insights into it.
+  -  Python - Data Analysis and Visualization
+     -   Employed to create charts and visualizations that would be challenging to produce in Tableau, along with performing statistical analyses to understand how variables might have affected a party's performance.
+  -  Tableau - Data Visualization
+     -   Utilized for visualizing the data.
+
 
 ### Data Dictionaries
 
@@ -188,11 +197,22 @@ To make this data easier to analyze, these SQL queries
 ALTER TABLE 'HoC-GE2024-results-by-candidate' RENAME TO 'Commons24';
 
 -- Creating the 
-Create Table Candidates as Select Candidatefirstname || ' ' || Candidatesurname as Candidate, Partyname as Party, Candidategender as Gender, Constituencyname as Constituency, Regionname as Region, Countryname as Country,
-Case when SittingMP = 'Yes' then TRUE
-when SittingMP = 'No' then FALSE else null end as Incumbent, 
-Case when FormerMP = 'Yes' then TRUE
-when FormerMP = 'No' then FALSE else null end as 'Former MP', Votes, Share, dense_rank() over(partition by Constituencyname order by Votes desc) as Standing from [Commons24] order by Countryname;
+Create Table Candidates as
+Select Candidatefirstname || ' ' || Candidatesurname as Candidate,
+  CandidateFirstName as Name,
+  CandidateSurname as Surname,
+  Partyname as Party,
+  Candidategender as Gender,
+  Constituencyname as Constituency,
+  Regionname as Region,
+  Countryname as Country,
+  Case when SittingMP = 'Yes' then TRUE
+  when SittingMP = 'No' then FALSE else null end as Incumbent, 
+  Case when FormerMP = 'Yes' then TRUE
+  when FormerMP = 'No' then FALSE else null end as 'Former MP',
+  Votes, Share,
+  dense_rank() over(partition by Constituencyname order by Votes desc) as Standing
+from [Commons24] order by Countryname;
 
 ```
 
