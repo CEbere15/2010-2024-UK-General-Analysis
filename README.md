@@ -62,7 +62,7 @@ Incumbent Data: A secondary dataset that for the analysis is in 'incumbent_data.
 | `Share`      | Float     | Share of the  total votes that the candidate won.   |
 | `Change`      | Text     | A measure on how well the Party did in comparison to the prior general election   |
 
-#### 2024 UK Election Holdings
+#### 2024/2019 UK Election Holdings
 
 | Column       | Data Type       | Description                                                                      |
 |-------------------|-------------|-----------------------------------------------------------------------------|
@@ -71,10 +71,10 @@ Incumbent Data: A secondary dataset that for the analysis is in 'incumbent_data.
 
 ## Data Cleaning and Preperation
 ### Process
-1. For the
-2. h
-3. j
-4. 
+1. Manipulating the data to take into account only the parts that are useful for analyzing it.
+2. Finding how the new constituency lines would have gone in the prior election.
+3. Making separate tables for how many seats were held before the 2024 and 2019 election.
+4. Making a table for the counties of the 2024 UK General in order to analyze how big an impact they had on votes. 
 
 
 ## Exploratory Data Analysis (EDA)
@@ -168,6 +168,7 @@ This was a bit of a challenge to find the exact distinct count of candidates. Ni
 
 
 
+</br>
 6. How many seats does each Party hold prior to the election?
 ```sql
 -- How many seats did each party hold before the election
@@ -176,11 +177,12 @@ group by HeldBy
 order by Count(*) desc;
 ```
 
+</br>
 
-##### Visualization: 
 
 ![image](https://github.com/user-attachments/assets/b5033918-d7b0-4066-bf30-76930011c761)
 
+</br>
 
 
 The Conservative Party has a clear majority of seats in Parliament before the 2024 General. With 372 seats, or 57.23% of the chamber in their control, they have a seemingly comfortable government to work with. Labour on the other hand, has the second highest amount of seats in the House of Commons; they hold 200 of them, or 30.77% of seats. Which is a fair amount lower than what the Conservatives hold. The next biggest three include the Scottish National Party with 46 seats (7.09%), Liberal Democrats with 10 seats (1.54%), and the Democratic Unionist Party with 8 seats (1.23%).
