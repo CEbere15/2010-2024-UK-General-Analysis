@@ -1,0 +1,651 @@
+ID,Constituency,Held By
+1,Aldershot,Conservative
+2,Aldridge-Brownhills,Conservative
+3,Altrincham and Sale West,Conservative
+4,Amber Valley,Conservative
+5,Arundel and South Downs,Conservative
+6,Ashfield,Labour
+7,Ashford,Conservative
+8,Ashton-Under-Lyne,Labour
+9,Aylesbury,Conservative
+10,Banbury,Conservative
+11,Barking,Labour
+12,Barnsley Central,Labour
+13,Barnsley East,Labour
+14,Barrow and Furness,Labour
+15,Basildon and Billericay,Conservative
+16,Basingstoke,Conservative
+17,Bassetlaw,Labour
+18,Bath,Liberal Democrat
+19,Batley and Spen,Labour
+20,Battersea,Labour
+21,Beaconsfield,Conservative
+22,Beckenham,Conservative
+23,Bedford,Labour
+24,Bermondsey and Old Southwark,Labour
+25,Berwick-Upon-Tweed,Conservative
+26,Bethnal Green and Bow,Labour
+27,Beverley and Holderness,Conservative
+28,Bexhill and Battle,Conservative
+29,Bexleyheath and Crayford,Conservative
+30,Birkenhead,Labour
+31,"Birmingham, Edgbaston",Labour
+32,"Birmingham, Erdington",Labour
+33,"Birmingham, Hall Green",Labour
+34,"Birmingham, Hodge Hill",Labour
+35,"Birmingham, Ladywood",Labour
+36,"Birmingham, Northfield",Labour
+37,"Birmingham, Perry Barr",Labour
+38,"Birmingham, Selly Oak",Labour
+39,"Birmingham, Yardley",Labour
+40,Bishop Auckland,Labour
+41,Blackburn,Labour
+42,Blackley and Broughton,Labour
+43,Blackpool North and Cleveleys,Conservative
+44,Blackpool South,Labour
+45,Blaydon,Labour
+46,Blyth Valley,Labour
+47,Bognor Regis and Littlehampton,Conservative
+48,Bolsover,Labour
+49,Bolton North East,Labour
+50,Bolton South East,Labour
+51,Bolton West,Conservative
+52,Bootle,Labour
+53,Boston and Skegness,Conservative
+54,Bosworth,Conservative
+55,Bournemouth East,Conservative
+56,Bournemouth West,Conservative
+57,Bracknell,Conservative
+58,Bradford East,Labour
+59,Bradford South,Labour
+60,Bradford West,Labour
+61,Braintree,Conservative
+62,Brent Central,Labour
+63,Brent North,Labour
+64,Brentford and Isleworth,Labour
+65,Brentwood and Ongar,Conservative
+66,Bridgwater and West Somerset,Conservative
+67,Brigg and Goole,Conservative
+68,"Brighton, Kemptown",Labour
+69,"Brighton, Pavilion",Green
+70,Bristol East,Labour
+71,Bristol North West,Labour
+72,Bristol South,Labour
+73,Bristol West,Labour
+74,Broadland,Conservative
+75,Bromley and Chislehurst,Conservative
+76,Bromsgrove,Conservative
+77,Broxbourne,Conservative
+78,Broxtowe,Conservative
+79,Buckingham,Speaker
+80,Burnley,Labour
+81,Burton,Conservative
+82,Bury North,Labour
+83,Bury South,Labour
+84,Bury St Edmunds,Conservative
+85,Calder Valley,Conservative
+86,Camberwell and Peckham,Labour
+87,Camborne and Redruth,Conservative
+88,Cambridge,Labour
+89,Cannock Chase,Conservative
+90,Canterbury,Labour
+91,Carlisle,Conservative
+92,Carshalton and Wallington,Liberal Democrat
+93,Castle Point,Conservative
+94,Central Devon,Conservative
+95,Central Suffolk and North Ipswich,Conservative
+96,Charnwood,Conservative
+97,Chatham and Aylesford,Conservative
+98,Cheadle,Conservative
+99,Chelmsford,Conservative
+100,Chelsea and Fulham,Conservative
+101,Cheltenham,Conservative
+102,Chesham and Amersham,Conservative
+103,Chesterfield,Labour
+104,Chichester,Conservative
+105,Chingford and Woodford Green,Conservative
+106,Chippenham,Conservative
+107,Chipping Barnet,Conservative
+108,Chorley,Labour
+109,Christchurch,Conservative
+110,Cities Of London and Westminster,Conservative
+111,City Of Chester,Labour
+112,City Of Durham,Labour
+113,Clacton,Conservative
+114,Cleethorpes,Conservative
+115,Colchester,Conservative
+116,Colne Valley,Labour
+117,Congleton,Conservative
+118,Copeland,Conservative
+119,Corby,Conservative
+120,Coventry North East,Labour
+121,Coventry North West,Labour
+122,Coventry South,Labour
+123,Crawley,Conservative
+124,Crewe and Nantwich,Labour
+125,Croydon Central,Labour
+126,Croydon North,Labour
+127,Croydon South,Conservative
+128,Dagenham and Rainham,Labour
+129,Darlington,Labour
+130,Dartford,Conservative
+131,Daventry,Conservative
+132,Denton and Reddish,Labour
+133,Derby North,Labour
+134,Derby South,Labour
+135,Derbyshire Dales,Conservative
+136,Devizes,Conservative
+137,Dewsbury,Labour
+138,Don Valley,Labour
+139,Doncaster Central,Labour
+140,Doncaster North,Labour
+141,Dover,Conservative
+142,Dudley North,Labour
+143,Dudley South,Conservative
+144,Dulwich and West Norwood,Labour
+145,Ealing Central and Acton,Labour
+146,Ealing North,Labour
+147,"Ealing, Southall",Labour
+148,Easington,Labour
+149,East Devon,Conservative
+150,East Ham,Labour
+151,East Hampshire,Conservative
+152,East Surrey,Conservative
+153,East Worthing and Shoreham,Conservative
+154,East Yorkshire,Conservative
+155,Eastbourne,Liberal Democrat
+156,Eastleigh,Conservative
+157,Eddisbury,Conservative
+158,Edmonton,Labour
+159,Ellesmere Port and Neston,Labour
+160,Elmet and Rothwell,Conservative
+161,Eltham,Labour
+162,Enfield North,Labour
+163,"Enfield, Southgate",Labour
+164,Epping Forest,Conservative
+165,Epsom and Ewell,Conservative
+166,Erewash,Conservative
+167,Erith and Thamesmead,Labour
+168,Esher and Walton,Conservative
+169,Exeter,Labour
+170,Fareham,Conservative
+171,Faversham and Mid Kent,Conservative
+172,Feltham and Heston,Labour
+173,Filton and Bradley Stoke,Conservative
+174,Finchley and Golders Green,Conservative
+175,Folkestone and Hythe,Conservative
+176,Forest Of Dean,Conservative
+177,Fylde,Conservative
+178,Gainsborough,Conservative
+179,Garston and Halewood,Labour
+180,Gateshead,Labour
+181,Gedling,Labour
+182,Gillingham and Rainham,Conservative
+183,Gloucester,Conservative
+184,Gosport,Conservative
+185,Grantham and Stamford,Conservative
+186,Gravesham,Conservative
+187,Great Grimsby,Labour
+188,Great Yarmouth,Conservative
+189,Greenwich and Woolwich,Labour
+190,Guildford,Conservative
+191,Hackney North and Stoke Newington,Labour
+192,Hackney South and Shoreditch,Labour
+193,Halesowen and Rowley Regis,Conservative
+194,Halifax,Labour
+195,Haltemprice and Howden,Conservative
+196,Halton,Labour
+197,Hammersmith,Labour
+198,Hampstead and Kilburn,Labour
+199,Harborough,Conservative
+200,Harlow,Conservative
+201,Harrogate and Knaresborough,Conservative
+202,Harrow East,Conservative
+203,Harrow West,Labour
+204,Hartlepool,Labour
+205,Harwich and North Essex,Conservative
+206,Hastings and Rye,Conservative
+207,Havant,Conservative
+208,Hayes and Harlington,Labour
+209,Hazel Grove,Conservative
+210,Hemel Hempstead,Conservative
+211,Hemsworth,Labour
+212,Hendon,Conservative
+213,Henley,Conservative
+214,Hereford and South Herefordshire,Conservative
+215,Hertford and Stortford,Conservative
+216,Hertsmere,Conservative
+217,Hexham,Conservative
+218,Heywood and Middleton,Labour
+219,High Peak,Labour
+220,Hitchin and Harpenden,Conservative
+221,Holborn and St Pancras,Labour
+222,Hornchurch and Upminster,Conservative
+223,Hornsey and Wood Green,Labour
+224,Horsham,Conservative
+225,Houghton and Sunderland South,Labour
+226,Hove,Labour
+227,Huddersfield,Labour
+228,Huntingdon,Conservative
+229,Hyndburn,Labour
+230,Ilford North,Labour
+231,Ilford South,Labour
+232,Ipswich,Labour
+233,Isle Of Wight,Conservative
+234,Islington North,Labour
+235,Islington South and Finsbury,Labour
+236,Jarrow,Labour
+237,Keighley,Labour
+238,Kenilworth and Southam,Conservative
+239,Kensington,Labour
+240,Kettering,Conservative
+241,Kingston and Surbiton,Liberal Democrat
+242,Kingston upon Hull East,Labour
+243,Kingston upon Hull North,Labour
+244,Kingston upon Hull West and Hessle,Labour
+245,Kingswood,Conservative
+246,Knowsley,Labour
+247,Lancaster and Fleetwood,Labour
+248,Leeds Central,Labour
+249,Leeds East,Labour
+250,Leeds North East,Labour
+251,Leeds North West,Labour
+252,Leeds West,Labour
+253,Leicester East,Labour
+254,Leicester South,Labour
+255,Leicester West,Labour
+256,Leigh,Labour
+257,Lewes,Conservative
+258,Lewisham East,Labour
+259,Lewisham West and Penge,Labour
+260,"Lewisham, Deptford",Labour
+261,Leyton and Wanstead,Labour
+262,Lichfield,Conservative
+263,Lincoln,Labour
+264,"Liverpool, Riverside",Labour
+265,"Liverpool, Walton",Labour
+266,"Liverpool, Wavertree",Labour
+267,"Liverpool, West Derby",Labour
+268,Loughborough,Conservative
+269,Louth and Horncastle,Conservative
+270,Ludlow,Conservative
+271,Luton North,Labour
+272,Luton South,Labour
+273,Macclesfield,Conservative
+274,Maidenhead,Conservative
+275,Maidstone and The Weald,Conservative
+276,Makerfield,Labour
+277,Maldon,Conservative
+278,Manchester Central,Labour
+279,"Manchester, Gorton",Labour
+280,"Manchester, Withington",Labour
+281,Mansfield,Conservative
+282,Meon Valley,Conservative
+283,Meriden,Conservative
+284,Mid Bedfordshire,Conservative
+285,Mid Derbyshire,Conservative
+286,Mid Dorset and North Poole,Conservative
+287,Mid Norfolk,Conservative
+288,Mid Sussex,Conservative
+289,Mid Worcestershire,Conservative
+290,Middlesbrough,Labour
+291,Middlesbrough South and East Cleveland,Conservative
+292,Milton Keynes North,Conservative
+293,Milton Keynes South,Conservative
+294,Mitcham and Morden,Labour
+295,Mole Valley,Conservative
+296,Morecambe and Lunesdale,Conservative
+297,Morley and Outwood,Conservative
+298,New Forest East,Conservative
+299,New Forest West,Conservative
+300,Newark,Conservative
+301,Newbury,Conservative
+302,Newcastle Upon Tyne Central,Labour
+303,Newcastle Upon Tyne East,Labour
+304,Newcastle Upon Tyne North,Labour
+305,Newcastle-Under-Lyme,Labour
+306,Newton Abbot,Conservative
+307,"Normanton, Pontefract and Castleford",Labour
+308,North Cornwall,Conservative
+309,North Devon,Conservative
+310,North Dorset,Conservative
+311,North Durham,Labour
+312,North East Bedfordshire,Conservative
+313,North East Cambridgeshire,Conservative
+314,North East Derbyshire,Conservative
+315,North East Hampshire,Conservative
+316,North East Hertfordshire,Conservative
+317,North East Somerset,Conservative
+318,North Herefordshire,Conservative
+319,North Norfolk,Liberal Democrat
+320,North Shropshire,Conservative
+321,North Somerset,Conservative
+322,North Swindon,Conservative
+323,North Thanet,Conservative
+324,North Tyneside,Labour
+325,North Warwickshire,Conservative
+326,North West Cambridgeshire,Conservative
+327,North West Durham,Labour
+328,North West Hampshire,Conservative
+329,North West Leicestershire,Conservative
+330,North West Norfolk,Conservative
+331,North Wiltshire,Conservative
+332,Northampton North,Conservative
+333,Northampton South,Conservative
+334,Norwich North,Conservative
+335,Norwich South,Labour
+336,Nottingham East,Labour
+337,Nottingham North,Labour
+338,Nottingham South,Labour
+339,Nuneaton,Conservative
+340,Old Bexley and Sidcup,Conservative
+341,Oldham East and Saddleworth,Labour
+342,Oldham West and Royton,Labour
+343,Orpington,Conservative
+344,Oxford East,Labour
+345,Oxford West and Abingdon,Liberal Democrat
+346,Pendle,Conservative
+347,Penistone and Stocksbridge,Labour
+348,Penrith and The Border,Conservative
+349,Peterborough,Labour
+350,"Plymouth, Moor View",Conservative
+351,"Plymouth, Sutton and Devonport",Labour
+352,Poole,Conservative
+353,Poplar and Limehouse,Labour
+354,Portsmouth North,Conservative
+355,Portsmouth South,Labour
+356,Preston,Labour
+357,Pudsey,Conservative
+358,Putney,Conservative
+359,Rayleigh and Wickford,Conservative
+360,Reading East,Labour
+361,Reading West,Conservative
+362,Redcar,Labour
+363,Redditch,Conservative
+364,Reigate,Conservative
+365,Ribble Valley,Conservative
+366,Richmond (Yorks),Conservative
+367,Richmond Park,Conservative
+368,Rochdale,Labour
+369,Rochester and Strood,Conservative
+370,Rochford and Southend East,Conservative
+371,Romford,Conservative
+372,Romsey and Southampton North,Conservative
+373,Rossendale and Darwen,Conservative
+374,Rother Valley,Labour
+375,Rotherham,Labour
+376,Rugby,Conservative
+377,"Ruislip, Northwood and Pinner",Conservative
+378,Runnymede and Weybridge,Conservative
+379,Rushcliffe,Conservative
+380,Rutland and Melton,Conservative
+381,Saffron Walden,Conservative
+382,Salford and Eccles,Labour
+383,Salisbury,Conservative
+384,Scarborough and Whitby,Conservative
+385,Scunthorpe,Labour
+386,Sedgefield,Labour
+387,Sefton Central,Labour
+388,Selby and Ainsty,Conservative
+389,Sevenoaks,Conservative
+390,Sheffield Central,Labour
+391,Sheffield South East,Labour
+392,"Sheffield, Brightside and Hillsborough",Labour
+393,"Sheffield, Hallam",Labour
+394,"Sheffield, Heeley",Labour
+395,Sherwood,Conservative
+396,Shipley,Conservative
+397,Shrewsbury and Atcham,Conservative
+398,Sittingbourne and Sheppey,Conservative
+399,Skipton and Ripon,Conservative
+400,Sleaford and North Hykeham,Conservative
+401,Slough,Labour
+402,Solihull,Conservative
+403,Somerton and Frome,Conservative
+404,South Basildon and East Thurrock,Conservative
+405,South Cambridgeshire,Conservative
+406,South Derbyshire,Conservative
+407,South Dorset,Conservative
+408,South East Cambridgeshire,Conservative
+409,South East Cornwall,Conservative
+410,South Holland and The Deepings,Conservative
+411,South Leicestershire,Conservative
+412,South Norfolk,Conservative
+413,South Northamptonshire,Conservative
+414,South Ribble,Conservative
+415,South Shields,Labour
+416,South Staffordshire,Conservative
+417,South Suffolk,Conservative
+418,South Swindon,Conservative
+419,South Thanet,Conservative
+420,South West Bedfordshire,Conservative
+421,South West Devon,Conservative
+422,South West Hertfordshire,Conservative
+423,South West Norfolk,Conservative
+424,South West Surrey,Conservative
+425,South West Wiltshire,Conservative
+426,"Southampton, Itchen",Conservative
+427,"Southampton, Test",Labour
+428,Southend West,Conservative
+429,Southport,Conservative
+430,Spelthorne,Conservative
+431,St Albans,Conservative
+432,St Austell and Newquay,Conservative
+433,St Helens North,Labour
+434,St Helens South and Whiston,Labour
+435,St Ives,Conservative
+436,Stafford,Conservative
+437,Staffordshire Moorlands,Conservative
+438,Stalybridge and Hyde,Labour
+439,Stevenage,Conservative
+440,Stockport,Labour
+441,Stockton North,Labour
+442,Stockton South,Labour
+443,Stoke-On-Trent Central,Labour
+444,Stoke-On-Trent North,Labour
+445,Stoke-On-Trent South,Conservative
+446,Stone,Conservative
+447,Stourbridge,Conservative
+448,Stratford-On-Avon,Conservative
+449,Streatham,Labour
+450,Stretford and Urmston,Labour
+451,Stroud,Labour
+452,Suffolk Coastal,Conservative
+453,Sunderland Central,Labour
+454,Surrey Heath,Conservative
+455,Sutton Coldfield,Conservative
+456,Sutton and Cheam,Conservative
+457,Tamworth,Conservative
+458,Tatton,Conservative
+459,Taunton Deane,Conservative
+460,Telford,Conservative
+461,Tewkesbury,Conservative
+462,The Cotswolds,Conservative
+463,The Wrekin,Conservative
+464,Thirsk and Malton,Conservative
+465,Thornbury and Yate,Conservative
+466,Thurrock,Conservative
+467,Tiverton and Honiton,Conservative
+468,Tonbridge and Malling,Conservative
+469,Tooting,Labour
+470,Torbay,Conservative
+471,Torridge and West Devon,Conservative
+472,Totnes,Conservative
+473,Tottenham,Labour
+474,Truro and Falmouth,Conservative
+475,Tunbridge Wells,Conservative
+476,Twickenham,Liberal Democrat
+477,Tynemouth,Labour
+478,Uxbridge and South Ruislip,Conservative
+479,Vauxhall,Labour
+480,Wakefield,Labour
+481,Wallasey,Labour
+482,Walsall North,Conservative
+483,Walsall South,Labour
+484,Walthamstow,Labour
+485,Wansbeck,Labour
+486,Wantage,Conservative
+487,Warley,Labour
+488,Warrington North,Labour
+489,Warrington South,Labour
+490,Warwick and Leamington,Labour
+491,Washington and Sunderland West,Labour
+492,Watford,Conservative
+493,Waveney,Conservative
+494,Wealden,Conservative
+495,Weaver Vale,Labour
+496,Wellingborough,Conservative
+497,Wells,Conservative
+498,Welwyn Hatfield,Conservative
+499,Wentworth and Dearne,Labour
+500,West Bromwich East,Labour
+501,West Bromwich West,Labour
+502,West Dorset,Conservative
+503,West Ham,Labour
+504,West Lancashire,Labour
+505,West Suffolk,Conservative
+506,West Worcestershire,Conservative
+507,Westminster North,Labour
+508,Westmorland and Lonsdale,Liberal Democrat
+509,Weston-Super-Mare,Conservative
+510,Wigan,Labour
+511,Wimbledon,Conservative
+512,Winchester,Conservative
+513,Windsor,Conservative
+514,Wirral South,Labour
+515,Wirral West,Labour
+516,Witham,Conservative
+517,Witney,Conservative
+518,Woking,Conservative
+519,Wokingham,Conservative
+520,Wolverhampton North East,Labour
+521,Wolverhampton South East,Labour
+522,Wolverhampton South West,Labour
+523,Worcester,Conservative
+524,Workington,Labour
+525,Worsley and Eccles South,Labour
+526,Worthing West,Conservative
+527,Wycombe,Conservative
+528,Wyre Forest,Conservative
+529,Wyre and Preston North,Conservative
+530,Wythenshawe and Sale East,Labour
+531,Yeovil,Conservative
+532,York Central,Labour
+533,York Outer,Conservative
+534,Belfast East,Democratic Unionist Party
+535,Belfast North,Democratic Unionist Party
+536,Belfast South,Democratic Unionist Party
+537,Belfast West,Sinn Fein
+538,East Antrim,Democratic Unionist Party
+539,East Londonderry,Democratic Unionist Party
+540,Fermanagh and South Tyrone,Sinn Fein
+541,Foyle,Sinn Fein
+542,Lagan Valley,Democratic Unionist Party
+543,Mid Ulster,Sinn Fein
+544,Newry and Armagh,Sinn Fein
+545,North Antrim,Democratic Unionist Party
+546,North Down,Independent
+547,South Antrim,Democratic Unionist Party
+548,South Down,Sinn Fein
+549,Strangford,Democratic Unionist Party
+550,Upper Bann,Democratic Unionist Party
+551,West Tyrone,Sinn Fein
+552,Aberdeen North,Scottish National Party
+553,Aberdeen South,Conservative
+554,Airdrie and Shotts,Scottish National Party
+555,Angus,Conservative
+556,Argyll and Bute,Scottish National Party
+557,"Ayr, Carrick and Cumnock",Conservative
+558,Banff and Buchan,Conservative
+559,"Berwickshire, Roxburgh and Selkirk",Conservative
+560,"Caithness, Sutherland and Easter Ross",Liberal Democrat
+561,Central Ayrshire,Scottish National Party
+562,"Coatbridge, Chryston and Bellshill",Labour
+563,"Cumbernauld, Kilsyth and Kirkintilloch East",Scottish National Party
+564,Dumfries and Galloway,Conservative
+565,"Dumfriesshire, Clydesdale and Tweeddale",Conservative
+566,Dundee East,Scottish National Party
+567,Dundee West,Scottish National Party
+568,Dunfermline and West Fife,Scottish National Party
+569,East Dunbartonshire,Liberal Democrat
+570,"East Kilbride, Strathaven and Lesmahagow",Scottish National Party
+571,East Lothian,Labour
+572,East Renfrewshire,Conservative
+573,Edinburgh East,Scottish National Party
+574,Edinburgh North and Leith,Scottish National Party
+575,Edinburgh South,Labour
+576,Edinburgh South West,Scottish National Party
+577,Edinburgh West,Liberal Democrat
+578,Falkirk,Scottish National Party
+579,Glasgow Central,Scottish National Party
+580,Glasgow East,Scottish National Party
+581,Glasgow North,Scottish National Party
+582,Glasgow North East,Labour
+583,Glasgow North West,Scottish National Party
+584,Glasgow South,Scottish National Party
+585,Glasgow South West,Scottish National Party
+586,Glenrothes,Scottish National Party
+587,Gordon,Conservative
+588,Inverclyde,Scottish National Party
+589,"Inverness, Nairn, Badenoch and Strathspey",Scottish National Party
+590,Kilmarnock and Loudoun,Scottish National Party
+591,Kirkcaldy and Cowdenbeath,Labour
+592,Lanark and Hamilton East,Scottish National Party
+593,Linlithgow and East Falkirk,Scottish National Party
+594,Livingston,Scottish National Party
+595,Midlothian,Labour
+596,Moray,Conservative
+597,Motherwell and Wishaw,Scottish National Party
+598,Na h-Eileanan An Iar,Scottish National Party
+599,North Ayrshire and Arran,Scottish National Party
+600,North East Fife,Scottish National Party
+601,Ochil and South Perthshire,Conservative
+602,Orkney and Shetland,Liberal Democrat
+603,Paisley and Renfrewshire North,Scottish National Party
+604,Paisley and Renfrewshire South,Scottish National Party
+605,Perth and North Perthshire,Scottish National Party
+606,"Ross, Skye and Lochaber",Scottish National Party
+607,Rutherglen and Hamilton West,Labour
+608,Stirling,Conservative
+609,West Aberdeenshire and Kincardine,Conservative
+610,West Dunbartonshire,Scottish National Party
+611,Aberavon,Labour
+612,Aberconwy,Conservative
+613,Alyn and Deeside,Labour
+614,Arfon,Plaid Cymru
+615,Blaenau Gwent,Labour
+616,Brecon and Radnorshire,Conservative
+617,Bridgend,Labour
+618,Caerphilly,Labour
+619,Cardiff Central,Labour
+620,Cardiff North,Labour
+621,Cardiff South and Penarth,Labour
+622,Cardiff West,Labour
+623,Carmarthen East and Dinefwr,Plaid Cymru
+624,Carmarthen West and South Pembrokeshire,Conservative
+625,Ceredigion,Plaid Cymru
+626,Clwyd South,Labour
+627,Clwyd West,Conservative
+628,Cynon Valley,Labour
+629,Delyn,Labour
+630,Dwyfor Meirionnydd,Plaid Cymru
+631,Gower,Labour
+632,Islwyn,Labour
+633,Llanelli,Labour
+634,Merthyr Tydfil and Rhymney,Labour
+635,Monmouth,Conservative
+636,Montgomeryshire,Conservative
+637,Neath,Labour
+638,Newport East,Labour
+639,Newport West,Labour
+640,Ogmore,Labour
+641,Pontypridd,Labour
+642,Preseli Pembrokeshire,Conservative
+643,Rhondda,Labour
+644,Swansea East,Labour
+645,Swansea West,Labour
+646,Torfaen,Labour
+647,Vale Of Clwyd,Labour
+648,Vale Of Glamorgan,Conservative
+649,Wrexham,Labour
+650,Ynys Môn,Labour
