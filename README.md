@@ -79,11 +79,7 @@ Incumbent Data: A secondary dataset that for the analysis is in 'incumbent_data.
 
 ## Exploratory Data Analysis (EDA)
 
-### Descriptive Statistics
-
-
-
-#### SQL
+### SQL
 
 1. What are the Top 15 most common surnames for candidates in the 2024 UK General Elections?
 
@@ -98,8 +94,9 @@ limit 15;
 
 
 
+</br></br>
 
-##### Visualization: 
+
 ![image](https://github.com/user-attachments/assets/6d9141dd-6da0-4239-b7f2-818f80abe023)
 
 
@@ -113,11 +110,16 @@ where SittingMP = 'Yes'
 group by Countryname, Regionname;
 
 ```
+</br></br>
 
-##### Visualization:
+
 ![image](https://github.com/user-attachments/assets/04efdb61-fd27-4775-994a-0e4e2f12694f)
 
-Most of the sitting MPs who stood for reelection were from England, with Scotland being at second place, Wales at third, while Northern Ireland had the least sitting MPs standing for reelection.
+</br>
+Most of the sitting MPs who stood for reelection were from England, with Scotland being at second place, Wales at third, and Northern Ireland at the bottom when it came to sitting MPs standing for reelection. 
+</br>
+
+For the regions in England, South East, North West and London had the most MPs standing for reelection. While the North East, East Midlands and East of England had the least MPs standing. 
 
 3. How many votes did each country and region have cast in the 2024 UK General Elections
 ```sql
@@ -126,8 +128,9 @@ Select Countryname, Regionname, Total(votes) as Votes from 'HoC-GE2024-results-b
 group by Countryname, Regionname;
 
 ```
-
-##### Visualization:
+The South East of England had the most votes casted in it, 
+</br>
+</br>
 
 ![image](https://github.com/user-attachments/assets/c01b50f3-d625-4731-8df0-82e34edb94c7)
 
@@ -136,23 +139,16 @@ group by Countryname, Regionname;
 Select Countryname, Regionname, Count(distinct Partyname) as Parties from 'HoC-GE2024-results-by-candidate'
 group by Countryname, Regionname
 ```
-##### Visualization:
+</br>
+</br>
+
 ![image](https://github.com/user-attachments/assets/5cfec85e-b781-4b17-a77c-495b821250bd)
 
-5. How common is each type of constituency in each country
-
-```sql
--- Find how common each type of constituency is by the country the constituency belongs to
-with Ren as (
-Select distinct Countryname as Country, Constituencyname, Constituencytype as Type
-from 'HoC-GE2024-results-by-candidate')  
-Select Country, Type, Count(*) as Constituencies from Ren group by Country, Type;
-```
 
 
 
 
-6. How many different people ran for a seat in parliament
+5. How many different people ran for a seat in parliament
 ```sql
 -- Using different variables to find how many different candidates there were
 Select count(distinct Candidatefirstname || candidatesurname || Regionname || Partyname || Constituencytype) + 2
@@ -160,16 +156,19 @@ as 'Distinct Candidates'
 from 'HoC-GE2024-results-by-candidate' 
 where Candidatesurname != 'Omilana';
 ```
-##### Result:
+</br>
+</br>
+
 ![image](https://github.com/user-attachments/assets/662cb395-3f11-41e1-a725-0301ffb2a002)
 
 
+</br>
 
 This was a bit of a challenge to find the exact distinct count of candidates. Niko Omilana for example, was a candidate for 11 different constituencies, therefore he needed to be removed and added back by adding one to the final count. And there were two different Paul Kennedy's in Scotland, who were members of the Liberal Democrat party, which meant another person needed to be added to the count.
 
 
 
-7. How many seats does each Party hold prior to the election?
+6. How many seats does each Party hold prior to the election?
 ```sql
 -- How many seats did each party hold before the election
 Select HeldBy, Count(*) from BeforeSeats
@@ -185,7 +184,62 @@ order by Count(*) desc;
 
 
 The Conservative Party has a clear majority of seats in Parliament before the 2024 General. With 372 seats, or 57.23% of the chamber in their control, they have a seemingly comfortable government to work with. Labour on the other hand, has the second highest amount of seats in the House of Commons; they hold 200 of them, or 30.77% of seats. Which is a fair amount lower than what the Conservatives hold. The next biggest three include the Scottish National Party with 46 seats (7.09%), Liberal Democrats with 10 seats (1.54%), and the Democratic Unionist Party with 8 seats (1.23%).
-#### Python
+### Python
+
+#### Descriptive Statistics
+
+#### Distributions
+To better understand our numerical data, it is best that we visualize the numerical values, in order to get a better understanding of the spread that they have.
+
+##### Votes
+
+```py
+```
+</br>
+
+![Untitled-1](https://github.com/user-attachments/assets/90f004c3-95e6-4d0e-8c9f-212e045cc101)
+
+
+
+```py
+```
+
+
+
+##### Share and Change
+</br>
+
+![Untitled](https://github.com/user-attachments/assets/98aedfb3-e1bb-4c7c-a88c-fb0f88d25c52)
+</br>
+Now we should look at how share of votes that each candidate received, varied by the Party they were affiliated with.
+
+```py
+data.boxplot(column='Share', by='Party name', grid=False, vert=False, figsize=(50,100))
+
+# Customize plot
+plt.title('Boxplots by Category')
+plt.suptitle('')  # Suppress the automatic 'Boxplot grouped by Category' title
+plt.xlabel('Category')
+plt.ylabel('Value')
+
+```
+
+</br>
+
+![Untitled](https://github.com/user-attachments/assets/f37767c5-7aaf-4980-b68e-85d18abe0f7e)
+
+</br>
+
+The result shows that a handful of parties that fielded candidates, had those candidates get far larger shares than others. Some of these parties include Reform UK, Labour and its affiliates, the Conservative Party, Sinn Fein, the Scottish National Party, just to name a few. The fact that they do not have many outliers on the top, this seems to show that these are the parties that performed well throughout. 
+
+</br>
+
+
+#### Univariate Analysis
+
+#### Comparitive Analysis 
+
+
 
 ## Data Manipulation
 ### Sorting Candidates and Ranking Their Performance
